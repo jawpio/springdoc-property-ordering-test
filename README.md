@@ -1,0 +1,1 @@
+# springdoc-property-ordering-test
