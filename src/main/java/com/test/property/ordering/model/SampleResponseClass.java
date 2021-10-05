@@ -2,43 +2,44 @@ package com.test.property.ordering.model;
 
 public class SampleResponseClass {
 
-	private String id;
+	private String idAsFirstParameter;
 
-	private String name;
+	private String nameAsSecondParamater;
 
-	private String lastName;
+	private String lastNameAsThirdParameter;
 
-	private boolean aValue;
+	private boolean booleanValueAsFourthParameter;
 
-	public String getId() {
-		return id;
+	public String getIdAsFirstParameter() {
+		return idAsFirstParameter;
 	}
 
-	public void setId(String id) {
-		this.id = id;
+	public void setIdAsFirstParameter(String idAsFirstParameter) {
+		this.idAsFirstParameter = idAsFirstParameter;
 	}
 
-	public String getName() {
-		return name;
+	public String getNameAsSecondParamater() {
+		return nameAsSecondParamater;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setNameAsSecondParamater(String nameAsSecondParamater) {
+		this.nameAsSecondParamater = nameAsSecondParamater;
 	}
 
-	public String getLastName() {
-		return lastName;
+	public String getLastNameAsThirdParameter() {
+		return lastNameAsThirdParameter;
 	}
 
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
+	public void setLastNameAsThirdParameter(String lastNameAsThirdParameter) {
+		this.lastNameAsThirdParameter = lastNameAsThirdParameter;
 	}
 
-	public boolean isaValue() {
-		return aValue;
+	public boolean isBooleanValueAsFourthParameter() {
+		return booleanValueAsFourthParameter;
 	}
 
-	public void setaValue(boolean aValue) {
-		this.aValue = aValue;
+	public void setBooleanValueAsFourthParameter(boolean aBooleanValueAsFourthParameter) {
+		this.booleanValueAsFourthParameter = aBooleanValueAsFourthParameter;
 	}
+
 }
